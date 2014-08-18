@@ -1,0 +1,6 @@
+c:\users\jerry\documents\visual studio 2013\Projects\Test App 1 - Codegasm\bin\Debug\Test App 1 - Codegasm.exe.config
+c:\users\jerry\documents\visual studio 2013\Projects\Test App 1 - Codegasm\bin\Debug\Test App 1 - Codegasm.exe
+c:\users\jerry\documents\visual studio 2013\Projects\Test App 1 - Codegasm\bin\Debug\Test App 1 - Codegasm.pdb
+c:\users\jerry\documents\visual studio 2013\Projects\Test App 1 - Codegasm\obj\Debug\Test App 1 - Codegasm.csprojResolveAssemblyReference.cache
+c:\users\jerry\documents\visual studio 2013\Projects\Test App 1 - Codegasm\obj\Debug\Test App 1 - Codegasm.exe
+c:\users\jerry\documents\visual studio 2013\Projects\Test App 1 - Codegasm\obj\Debug\Test App 1 - Codegasm.pdb
