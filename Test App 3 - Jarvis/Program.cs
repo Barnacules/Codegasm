@@ -78,7 +78,7 @@ namespace Jarvis
                     if (currentCpuPercentage == 100)
                     {
                         // This is designed to prevent the speech speed from exceeding 5x normal
-                        string cpuLoadVocalMessage = cpuMaxedOutMessages[rand.Next(5)];
+                        string cpuLoadVocalMessage = cpuMaxedOutMessages[rand.Next(cpuMaxedOutMessages.Size())];
 
                         if (isChromeOpenedAlready == false)
                         {
