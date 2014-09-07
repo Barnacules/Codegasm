@@ -142,7 +142,7 @@ namespace DrunkPC
 
             while (true)
             {
-                // Determine if we're going to play a sound this time through the loop (80% odds)
+                // Determine if we're going to play a sound this time through the loop (20% odds)
                 if (_random.Next(100) > 80)
                 {
                     // Randomly select a system sound
@@ -179,7 +179,7 @@ namespace DrunkPC
 
             while (true)
             {
-                // Every 10 seconds roll the dice and 90% of the time show a dialog
+                // Every 10 seconds roll the dice and 10% of the time show a dialog
                 if (_random.Next(100) > 90)
                 {
                     // Determine which message to show user
