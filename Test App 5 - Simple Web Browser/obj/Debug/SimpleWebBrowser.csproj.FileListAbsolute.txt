@@ -1,9 +1,0 @@
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.exe.config
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.exe
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\bin\Debug\SimpleWebBrowser.pdb
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csprojResolveAssemblyReference.cache
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.Form1.resources
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.Properties.Resources.resources
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.csproj.GenerateResource.Cache
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.exe
-c:\users\jerry\documents\visual studio 2013\Projects\SimpleWebBrowser\obj\Debug\SimpleWebBrowser.pdb
