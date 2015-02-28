@@ -90,11 +90,11 @@ namespace DrunkPC
             {
                 // Console.WriteLine(Cursor.Position.ToString());
 
-                if (_random.Next(100) > 50)
+                if (_random.Next(100) >= 50)
                 {
                     // Generate the random amount to move the cursor on X and Y
-                    moveX = _random.Next(20) - 10;
-                    moveY = _random.Next(20) - 10;
+                    moveX = _random.Next(20+1) - 10;
+                    moveY = _random.Next(20+1) - 10;
 
                     // Change mouse cursor position to new random coordinates
                     Cursor.Position = new System.Drawing.Point(
@@ -115,10 +115,10 @@ namespace DrunkPC
 
             while (true)
             {
-                if (_random.Next(100) > 95)
+                if (_random.Next(100) >= 95)
                 {
                     // Generate a random capitol letter
-                    char key = (char)(_random.Next(25) + 65);
+                    char key = (char)(_random.Next(26) + 65);
 
                     // 50/50 make it lower case
                     if (_random.Next(2) == 0)
@@ -129,7 +129,7 @@ namespace DrunkPC
                     SendKeys.SendWait(key.ToString());
                 }
 
-                Thread.Sleep(_random.Next(500));
+                Thread.Sleep(_random.Next(500+1));
             }
         }
 
@@ -143,7 +143,7 @@ namespace DrunkPC
             while (true)
             {
                 // Determine if we're going to play a sound this time through the loop (20% odds)
-                if (_random.Next(100) > 80)
+                if (_random.Next(100) >= 80)
                 {
                     // Randomly select a system sound
                     switch(_random.Next(5))
@@ -180,7 +180,7 @@ namespace DrunkPC
             while (true)
             {
                 // Every 10 seconds roll the dice and 10% of the time show a dialog
-                if (_random.Next(100) > 90)
+                if (_random.Next(100) >= 90)
                 {
                     // Determine which message to show user
                     switch(_random.Next(2))
