@@ -186,6 +186,8 @@ namespace DrunkPC
                     switch(_random.Next(2))
                     {
                         case 0:
+                            SystemSounds.Exclamation.Play();
+
                             MessageBox.Show(
                                "Internet explorer has stopped working",
                                 "Internet Explorer",
@@ -193,6 +195,8 @@ namespace DrunkPC
                                 MessageBoxIcon.Error);
                             break;
                         case 1:
+                            SystemSounds.Exclamation.Play();
+
                             MessageBox.Show(
                                "Your system is running low on resources",
                                 "Microsoft Windows",
