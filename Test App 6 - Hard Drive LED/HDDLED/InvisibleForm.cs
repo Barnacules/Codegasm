@@ -109,7 +109,7 @@ namespace HDDLED
                         }
                     }
 
-                    // Sleep for 10th of millisecond 
+                    // Sleep for 10th of a second 
                     Thread.Sleep(100);
                 }
             } catch( ThreadAbortException tbe )
